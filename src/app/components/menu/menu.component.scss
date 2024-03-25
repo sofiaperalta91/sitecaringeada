@@ -1,0 +1,26 @@
+.wrapper-whole-menu {
+    display: flex;
+    align-items: center; 
+
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.menu {
+    
+    font-size: 16px;
+    font-weight: lighter;
+    height: 50px; /* Definindo uma altura fixa */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transition: font-size 0.3s;
+
+
+}
+.active, .resize:hover {
+    font-size: 25px;
+    font-weight: normal;
+}
