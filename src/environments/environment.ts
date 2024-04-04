@@ -1,6 +1,6 @@
 export const environment = {
     firebase: {
-    apiKey: "xxxx",
+    apiKey: process.env['API_KEY'],
     authDomain: "portfolio-89c9c.firebaseapp.com",
     projectId: "portfolio-89c9c",
     storageBucket: "portfolio-89c9c.appspot.com",
