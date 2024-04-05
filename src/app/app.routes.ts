@@ -8,6 +8,8 @@ import { OtherWorksComponent } from './pages/other-works/other-works.component';
 import { AwardsComponent } from './pages/awards/awards.component';
 import { FutureProjectsComponent } from './pages/future-projects/future-projects.component';
 import { ClippingComponent } from './pages/clipping/clipping.component';
+import { ShowComponent } from './pages/show/show.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 export const routes: Routes = [
   {
@@ -45,5 +47,13 @@ export const routes: Routes = [
   {
     path: 'clipping',
     component: ClippingComponent,
+  },
+  {
+    path: 'show',
+    component: ShowComponent,
+  },
+  {
+    path: 'carousel',
+    component: CarouselComponent,
   },
 ];
