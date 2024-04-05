@@ -8,10 +8,9 @@ describe('ClippingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ClippingComponent]
-    })
-    .compileComponents();
-    
+      imports: [ClippingComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(ClippingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

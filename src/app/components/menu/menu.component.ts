@@ -7,10 +7,10 @@ import { Router, RouterLink, RouterLinkActive } from '@angular/router';
   standalone: true,
   imports: [NameMenuComponent, RouterLinkActive, RouterLink],
   templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss'
+  styleUrl: './menu.component.scss',
 })
 export class MenuComponent {
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   toLandingPage() {
     this.router.navigateByUrl('');
