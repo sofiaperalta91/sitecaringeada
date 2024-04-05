@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [MenuComponent],
   templateUrl: './show.component.html',
-  styleUrl: './show.component.scss'
+  styleUrl: './show.component.scss',
 })
 export class ShowComponent {
-constructor(private router:Router) {}
+  constructor(private router: Router) {}
 }

@@ -1,15 +1,71 @@
 <div class="wrapper-whole-menu">
-    <div class="cursor-pointer" (click)="toLandingPage()">
-        <app-name-menu/>
+  <div class="cursor-pointer" (click)="toLandingPage()">
+    <app-name-menu />
+  </div>
+  <div class="wrapper">
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/theatre"
+      routerLinkActive="active"
+      (click)="toTheatrePage()"
+    >
+      THEATRE
     </div>
-    <div class="wrapper">
-    <div class="menu cursor-pointer resize" routerLink="/theatre" routerLinkActive="active"(click)="toTheatrePage()">THEATRE</div>
-    <div class="menu cursor-pointer resize" routerLink="/dance" routerLinkActive="active"(click)="toDancePage()">DANCE</div>
-    <div class="menu cursor-pointer resize" routerLink="/tv-events-gigs" routerLinkActive="active"(click)="toTvEventsGigs()">TV/EVENTS/GIGS</div>
-    <div class="menu cursor-pointer resize" routerLink="/other-works" routerLinkActive="active"(click)="toOtherWorks()">OTHER WORKS</div>
-    <div class="menu cursor-pointer resize" routerLink="/future-projects" routerLinkActive="active"(click)="toFutureProjects()">FUTURE PROJECTS</div>
-    <div class="menu cursor-pointer resize" routerLink="/awards" routerLinkActive="active"(click)="toAwards()">AWARDS</div>
-    <div class="menu cursor-pointer resize" routerLink="/clipping" routerLinkActive="active" (click)="toClipping()">CLIPPING</div>
-    <div class="menu cursor-pointer resize" routerLink="/about" routerLinkActive="active" (click)="toAbout()">ABOUT</div>
-</div>  
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/dance"
+      routerLinkActive="active"
+      (click)="toDancePage()"
+    >
+      DANCE
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/tv-events-gigs"
+      routerLinkActive="active"
+      (click)="toTvEventsGigs()"
+    >
+      TV/EVENTS/GIGS
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/other-works"
+      routerLinkActive="active"
+      (click)="toOtherWorks()"
+    >
+      OTHER WORKS
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/future-projects"
+      routerLinkActive="active"
+      (click)="toFutureProjects()"
+    >
+      FUTURE PROJECTS
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/awards"
+      routerLinkActive="active"
+      (click)="toAwards()"
+    >
+      AWARDS
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/clipping"
+      routerLinkActive="active"
+      (click)="toClipping()"
+    >
+      CLIPPING
+    </div>
+    <div
+      class="menu cursor-pointer resize"
+      routerLink="/about"
+      routerLinkActive="active"
+      (click)="toAbout()"
+    >
+      ABOUT
+    </div>
+  </div>
 </div>

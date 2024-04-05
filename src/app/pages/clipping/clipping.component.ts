@@ -7,8 +7,8 @@ import { MenuComponent } from '../../components/menu/menu.component';
   standalone: true,
   imports: [MenuComponent],
   templateUrl: './clipping.component.html',
-  styleUrl: './clipping.component.scss'
+  styleUrl: './clipping.component.scss',
 })
 export class ClippingComponent {
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 }

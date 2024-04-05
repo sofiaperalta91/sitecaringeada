@@ -8,8 +8,8 @@ import { CarouselComponent } from '../../components/carousel/carousel.component'
   standalone: true,
   imports: [MenuComponent, CarouselComponent],
   templateUrl: './dance.component.html',
-  styleUrl: './dance.component.scss'
+  styleUrl: './dance.component.scss',
 })
 export class DanceComponent {
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 }

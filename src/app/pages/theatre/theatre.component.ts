@@ -6,10 +6,10 @@ import { CarouselComponent } from '../../components/carousel/carousel.component'
 @Component({
   selector: 'app-theatre',
   standalone: true,
-  imports: [MenuComponent,CarouselComponent],
+  imports: [MenuComponent, CarouselComponent],
   templateUrl: './theatre.component.html',
-  styleUrl: './theatre.component.scss'
+  styleUrl: './theatre.component.scss',
 })
 export class TheatreComponent {
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 }

@@ -7,9 +7,8 @@ import { MenuComponent } from '../../components/menu/menu.component';
   standalone: true,
   imports: [MenuComponent],
   templateUrl: './about.component.html',
-  styleUrl: './about.component.scss'
+  styleUrl: './about.component.scss',
 })
 export class AboutComponent {
-  constructor(private router: Router) { }
-
+  constructor(private router: Router) {}
 }
