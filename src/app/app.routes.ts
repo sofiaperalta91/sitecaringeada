@@ -10,42 +10,40 @@ import { FutureProjectsComponent } from './pages/future-projects/future-projects
 import { ClippingComponent } from './pages/clipping/clipping.component';
 
 export const routes: Routes = [
-    {
-        path: '',
-        component: LandingPageComponent,
-    },
-    {
-        path: 'about',
-        component: AboutComponent,
-    },
-    {
-        path: 'theatre',
-        component: TheatreComponent,
-
-    },
-    {
-        path: 'dance',
-        component: DanceComponent,
-    },
-    {
-        path: 'tv-events-gigs',
-        component: TvEventsGigsComponent,
-    },
-    {
-        path: 'other-works',
-        component: OtherWorksComponent,
-    },
-    {
-        path: 'awards',
-        component: AwardsComponent,
-    },
-    {
-        path: 'future-projects',
-        component: FutureProjectsComponent,
-    },
-    {
-        path: 'clipping',
-        component: ClippingComponent,
-    }
-  
+  {
+    path: '',
+    component: LandingPageComponent,
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+  },
+  {
+    path: 'theatre',
+    component: TheatreComponent,
+  },
+  {
+    path: 'dance',
+    component: DanceComponent,
+  },
+  {
+    path: 'tv-events-gigs',
+    component: TvEventsGigsComponent,
+  },
+  {
+    path: 'other-works',
+    component: OtherWorksComponent,
+  },
+  {
+    path: 'awards',
+    component: AwardsComponent,
+  },
+  {
+    path: 'future-projects',
+    component: FutureProjectsComponent,
+  },
+  {
+    path: 'clipping',
+    component: ClippingComponent,
+  },
 ];
